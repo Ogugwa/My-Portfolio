@@ -44,8 +44,10 @@ nav ul {
   padding-top: 30px;
 }
 .hero-section h2 {
+  border: 4px solid blue;
   font-size: 3rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 .hero-section p {
   font-size: 1.2rem;
