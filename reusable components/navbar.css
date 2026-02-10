@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navigation Styling */
+nav {
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+nav h1 {
+  border: 2px solid blue;
+}
+nav ul {
+  border: 2px solid red;
+  display: flex;
+  list-style: none;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #1754af;
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  nav {
+    align-items: flex-start;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .nav-links li{
+    margin-bottom: 1rem;
+  }
+}

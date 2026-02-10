@@ -28,6 +28,10 @@ nav ul {
   color: #333;
   font-weight: bold;
 }
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #1754af;
+}
 /* Reusable class */
 .centered {
   display: flex;
@@ -154,6 +158,17 @@ nav ul {
   .nav-links {
     flex-direction: column;
     gap: 10px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .nav-links li{
+    margin-bottom: 1rem;
   }
   .hero-section h2 {
     font-size: 2rem;
